@@ -17,7 +17,7 @@ function getDefaultModel(provider) {
     case 'groq': return 'llama-3.3-70b-versatile'
     case 'openai': return 'gpt-4o-mini'
     case 'openrouter':
-    default: return 'mistralai/mistral-7b-instruct:free'
+    default: return 'mistralai/mistral-7b-instruct'
   }
 }
 
