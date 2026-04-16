@@ -1,0 +1,143 @@
+.profile-page {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-hero {
+  background: white;
+  border-radius: 20px;
+  padding: 36px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.profile-avatar-big {
+  width: 88px;
+  height: 88px;
+  background: #7c3aed;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+}
+
+.profile-hero h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 4px;
+}
+
+.profile-hero p {
+  font-size: 15px;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.profile-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.profile-card .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.profile-card .form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.profile-card .form-group input {
+  padding: 11px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.profile-card .form-group input:focus {
+  border-color: #7c3aed;
+}
+
+.profile-card .btn-primary {
+  margin-top: 4px;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.profile-msg {
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.msg-ok {
+  background: #f0fdf4;
+  color: #16a34a;
+}
+
+.msg-err {
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+.danger-card {
+  border: 1px solid #fee2e2;
+}
+
+.danger-card h3 {
+  color: #dc2626;
+  margin-bottom: 8px;
+}
+
+.danger-card p {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.btn-danger {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 11px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.btn-danger:hover {
+  background: #b91c1c;
+}
